@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 660" width="1200" height="660" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker></defs>
+<rect width="1200" height="660" fill="#FFFFFF"/>
+<text x="40" y="52" font-size="28" fill="#0F172A" font-weight="700">Indian rail punctuality: how it works</text>
+<text x="40" y="80" font-size="15" fill="#475569">Six months of real running history for 136 long-distance trains, collected politely and analysed</text>
+<rect x="24" y="104" width="1152" height="236" rx="14" fill="#EFF6FF" stroke="#BFDBFE"/>
+<text x="44" y="132" font-size="13" fill="#1D4ED8" font-weight="700" letter-spacing="1">COLLECT · politely, once</text>
+<rect x="44" y="144" width="230" height="160" rx="10" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1"/>
+<text x="62" y="174" font-size="15" fill="#0F172A" font-weight="700">136 trains</text>
+<text x="62" y="200" font-size="12" fill="#334155">Rajdhani, Shatabdi, Vande</text>
+<text x="62" y="220" font-size="12" fill="#334155">Bharat, Duronto, Superfast,</text>
+<text x="62" y="240" font-size="12" fill="#334155">Mail/Express, both directions</text>
+<rect x="310" y="144" width="300" height="160" rx="10" fill="#FFFFFF" stroke="#2563EB" stroke-width="2"/>
+<text x="328" y="174" font-size="15" fill="#1D4ED8" font-weight="700">Polite collector</text>
+<text x="328" y="200" font-size="12" fill="#334155">robots.txt checked</text>
+<text x="328" y="220" font-size="12" fill="#334155">one request every 6-8 seconds</text>
+<text x="328" y="240" font-size="12" fill="#334155">stops if the site says 403/429</text>
+<text x="328" y="260" font-size="12" fill="#334155">every page cached: never fetched twice</text>
+<rect x="646" y="144" width="250" height="160" rx="10" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1"/>
+<text x="664" y="174" font-size="15" fill="#0F172A" font-weight="700">Running history pages</text>
+<text x="664" y="200" font-size="12" fill="#334155">6 months per train</text>
+<text x="664" y="220" font-size="12" fill="#334155">11 Apr - 7 Oct 2026</text>
+<text x="664" y="240" font-size="12" fill="#334155">kept on this machine only</text>
+<text x="664" y="260" font-size="12" fill="#334155">(site terms: personal use)</text>
+<rect x="932" y="144" width="224" height="160" rx="10" fill="#FFFFFF" stroke="#16A34A" stroke-width="2"/>
+<text x="950" y="174" font-size="15" fill="#15803D" font-weight="700">Validated</text>
+<text x="950" y="200" font-size="12" fill="#334155">my averages match the</text>
+<text x="950" y="220" font-size="12" fill="#334155">site&#x27;s own for all 136</text>
+<text x="950" y="240" font-size="12" fill="#334155">trains (within 1 min)</text>
+<line x1="274" y1="224" x2="306" y2="224" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="610" y1="224" x2="642" y2="224" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="896" y1="224" x2="928" y2="224" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="24" y="360" width="1152" height="280" rx="14" fill="#F5F3FF" stroke="#DDD6FE"/>
+<text x="44" y="388" font-size="13" fill="#6D28D9" font-weight="700" letter-spacing="1">PARSE AND ANALYSE · pandas</text>
+<rect x="44" y="400" width="330" height="210" rx="10" fill="#FFFFFF" stroke="#7C3AED" stroke-width="2"/>
+<text x="62" y="430" font-size="15" fill="#6D28D9" font-weight="700">Tidy tables</text>
+<text x="62" y="456" font-size="12" fill="#334155">trains: name, route, type, zone,</text>
+<text x="62" y="476" font-size="12" fill="#334155">distance (136 rows)</text>
+<text x="62" y="496" font-size="12" fill="#334155"></text>
+<text x="62" y="516" font-size="12" fill="#334155">daily: train x date x station</text>
+<text x="62" y="536" font-size="12" fill="#334155">delay in minutes (449k records,</text>
+<text x="62" y="556" font-size="12" fill="#334155">613 stations)</text>
+<text x="62" y="576" font-size="12" fill="#334155"></text>
+<text x="62" y="596" font-size="12" fill="#334155">missing runs stay missing, never 0</text>
+<rect x="410" y="400" width="330" height="210" rx="10" fill="#FFFFFF" stroke="#7C3AED" stroke-width="2"/>
+<text x="428" y="430" font-size="15" fill="#6D28D9" font-weight="700">Metrics</text>
+<text x="428" y="456" font-size="12" fill="#334155">run = one train on one date</text>
+<text x="428" y="476" font-size="12" fill="#334155">on time = within 15 min at the</text>
+<text x="428" y="496" font-size="12" fill="#334155">destination (the site&#x27;s own band)</text>
+<text x="428" y="516" font-size="12" fill="#334155"></text>
+<text x="428" y="536" font-size="12" fill="#334155">average and median delay, p90,</text>
+<text x="428" y="556" font-size="12" fill="#334155">share over 1 hour, by type,</text>
+<text x="428" y="576" font-size="12" fill="#334155">train, month, weekday, station</text>
+<rect x="776" y="400" width="380" height="210" rx="10" fill="#FFFFFF" stroke="#2563EB" stroke-width="2"/>
+<text x="794" y="430" font-size="15" fill="#1D4ED8" font-weight="700">Findings and charts</text>
+<text x="794" y="456" font-size="12" fill="#334155">most and least punctual trains</text>
+<text x="794" y="476" font-size="12" fill="#334155">delay by train type</text>
+<text x="794" y="496" font-size="12" fill="#334155">where on the route time is lost</text>
+<text x="794" y="516" font-size="12" fill="#334155">delay hotspots by station</text>
+<text x="794" y="536" font-size="12" fill="#334155">the Kharagpur-Tatanagar corridor</text>
+<text x="794" y="556" font-size="12" fill="#334155">time recovered on the final leg</text>
+<text x="794" y="576" font-size="12" fill="#334155"></text>
+<text x="794" y="596" font-size="12" fill="#334155">only aggregates are published</text>
+<line x1="374" y1="505" x2="406" y2="505" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="740" y1="505" x2="772" y2="505" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+</svg>
