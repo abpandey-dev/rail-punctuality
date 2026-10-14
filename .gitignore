@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+# Raw pages and the extracted dataset stay local: etrain.info data is for personal, non-commercial use.
+data/
